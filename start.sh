@@ -1,4 +1,4 @@
-sudo ln -s /bin/sh /bin/sh^M
+sudo ln -s /bin/bash /bin/bash^M
 cd /root/
 pip3 install -r requirements.txt
 python manage.py makemigrations && python manage.py migrate
